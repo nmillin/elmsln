@@ -545,7 +545,59 @@ input.cis_shortcodes_embed,
 }
 
 /* Font normalization */
-body, p a, p p a, h1,h2,h3,h4,h5,h6,p,p strong,strong,p b, b, #etb-course-nav span.course-title, .alert-box, #etb-tool-nav .tab-bar span, ul.off-canvas-list li a, .etb-book ul, .etb-book ol, .etb-book dl, .etb-nav-modal ul li a, a.etb-nav_item_service_btn span, a.etb-modal-icon span, a.modal-img-link span, .etb-nav-modal h2, #admin-menu .dropdown li li a, .admin-status-bar span.course-section-label, .admin-status-bar span.user-role-label, .admin-status-bar span.current-user-id-label, h2, a, p.txtbk-intro, p.txtbk-intro a, .section-id, .accordion .accordion-navigation > a, .accordion dd > a, .sub-tier-1 h2, .sub-tier-1 h3, footer p, .admin-status-bar span.course-section, .admin-status-bar span.user-role, .admin-status-bar span.current-user-id, h1, .image-media h3, h4.testimonial-name, #etb-course-nav span.course-abrv, .etb-nav-modal h1 {
+/** droid font -- default of content authoring */
+.accordion .accordion-navigation > a,
+.accordion dd > a,
+.alert-box,
+.etb-book dl,
+.etb-book ol,
+.etb-book ul,
+.image-media h3,
+.sub-tier-1 h2,
+.sub-tier-1 h3,
+a,
+b,
+body,
+footer p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p a,
+p b,
+p p a,
+p strong,
+p,
+strong {
+  font-family: "Droid Serif", "Georgia", serif;
+}
+/** open sans -- special content authoring overrides **/
+h4.testimonial-name,
+p.txtbk-intro a,
+p.txtbk-intro {
+  font-family: Open Sans, sans-serif;
+}
+/** roboto -- admin toolbar and navigation **/
+.admin-status-bar span.course-section-label,
+.admin-status-bar span.course-section,
+.admin-status-bar span.current-user-id-label,
+.admin-status-bar span.current-user-id,
+.admin-status-bar span.user-role-label,
+.admin-status-bar span.user-role,
+.etb-nav-modal h1,
+.etb-nav-modal h2,
+.etb-nav-modal ul li a,
+.section-id,
+#admin-menu .dropdown li li a,
+#etb-course-nav span.course-abrv,
+#etb-course-nav span.course-title,
+#etb-tool-nav .tab-bar span,
+a.etb-modal-icon span,
+a.etb-nav_item_service_btn span,
+a.modal-img-link span,
+ul.off-canvas-list li a {
   font-family: "Roboto", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p, #etb-course-nav span.course-title, .alert-box, #etb-tool-nav .tab-bar span, ul.off-canvas-list li a, .etb-book ul, .etb-book ol, .etb-book dl, .etb-nav-modal ul li a, a.etb-nav_item_service_btn span, a.etb-modal-icon span, a.modal-img-link span, .etb-nav-modal h2, #admin-menu .dropdown li li a, .admin-status-bar span.course-section-label, .admin-status-bar span.user-role-label, .admin-status-bar span.current-user-id-label, h2, a, p.txtbk-intro, p.txtbk-intro a, .section-id, .accordion .accordion-navigation > a, .accordion dd > a, .sub-tier-1 h2, .sub-tier-1 h3, footer p, .admin-status-bar span.course-section, .admin-status-bar span.user-role, .admin-status-bar span.current-user-id, h1, .image-media h3, h4.testimonial-name, #etb-course-nav span.course-abrv, .etb-nav-modal h1 {
